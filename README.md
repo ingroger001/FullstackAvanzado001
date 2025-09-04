@@ -1,7 +1,7 @@
 # FullstackAvanzado
 
 Proyecto Flutter mediante el uso de supabase, Geminis y elementos externos.
-
+_______________________________________________
 ## Creacion de  proyecto y tabla en supabase
 
 CREATE TABLE personas (
@@ -17,6 +17,9 @@ CREATE TABLE personas (
     fecha VARCHAR(255),
     hora VARCHAR(255)
 );
+__________________________________________________
+## registros tabla personas
+
 INSERT INTO personas (identificacion, nombres, direccion, email, telefono, urlFoto, scanner, usuario, fecha, hora, password) VALUES
 ('1234567890', 'Ana Morales', 'Calle 10 # 5-20', 'anamorales@gmail.com', '3101234567', 'http://foto.com/ana.jpg', TRUE, TRUE, '2025-09-04', '10:00:00', MD5('1234567890')),
 ('2345678901', 'Luis Pérez', 'Carrera 7 # 15-30', 'luisperez@gmail.com', '3112345678', 'http://foto.com/luis.jpg', FALSE, TRUE, '2025-09-04', '10:05:00', MD5('2345678901')),
@@ -98,4 +101,5 @@ diseñando un carnet
 
 
 ##
+
 
